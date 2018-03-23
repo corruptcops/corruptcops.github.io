@@ -1,0 +1,79 @@
+ html, body {
+	width: 100%;
+  	height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+  margin: 0 auto;
+  background-repeat: no-repeat ;
+  background-color: #FFE4B5;
+}
+
+.banner{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 42 px;
+	padding-bottom: 20px;
+}
+
+.vertical-menu {padding-top: 10px;
+	padding-left: 9%;
+    width: 150px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #FFE4B0; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 5px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    color: 	#B22222;
+}
+
+
+header{
+	margin-right: 9%;
+	margin-left: 9%;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+	border-bottom-width: 50%;
+	border-top-width: 50%;
+   
+}
+nav ul {
+	
+	margin: 0;
+  	text-align: center;
+ 	padding-right: 20px;
+ 	list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px
+  padding-bottom: 15px
+
+
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: 	#B22222;
+}
+h4{
+	padding: -1px;
+}
+
